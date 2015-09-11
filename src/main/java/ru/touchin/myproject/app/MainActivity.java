@@ -19,7 +19,8 @@ public final class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         if (BuildConfig.DEBUG)
             mRootView = getWindow().getDecorView()
-                    .findViewById(android.R.id.content);//
+                    .findViewById(android.R.id.content);
+        // TODO Some Changes
     }
 
     @Override
