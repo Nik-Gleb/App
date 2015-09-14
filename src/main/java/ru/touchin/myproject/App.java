@@ -33,7 +33,7 @@ public final class App extends Application {
 
 
 	
-	/** */
+	/** Strict Mode init. */
 	private static void initStrictMode() {
 		if (BuildConfig.DEBUG) {
 			StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
