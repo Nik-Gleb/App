@@ -20,7 +20,7 @@ public final class MainActivity extends Activity {
         if (BuildConfig.DEBUG)
             mRootView = getWindow().getDecorView()
                     .findViewById(android.R.id.content);
-        //remote changes2 and my patch
+        //remote changes3
     }
 
     @Override
