@@ -21,6 +21,7 @@ public final class MainActivity extends Activity {
             mRootView = getWindow().getDecorView()
                     .findViewById(android.R.id.content);
         //new change local
+
     }
 
     @Override
