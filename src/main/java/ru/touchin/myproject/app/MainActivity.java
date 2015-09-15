@@ -20,7 +20,7 @@ public final class MainActivity extends Activity {
         if (BuildConfig.DEBUG)
             mRootView = getWindow().getDecorView()
                     .findViewById(android.R.id.content);
-        //local changes 30
+        //local changes 78
     }
 
     @Override
